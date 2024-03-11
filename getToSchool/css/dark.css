@@ -1,0 +1,58 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(0, 128, 128);
+    color: blue;
+}
+
+#banner {
+    background-color: rgb(185, 0, 0);
+    border: 10px solid black;
+}
+
+#content {
+    width: 60%;
+    margin: auto;
+    border: 1px solid black;
+}
+
+#blogpost {
+    background-color: rgb(4, 1, 150);
+}
+
+.post {
+    color: rgb(201, 0, 0);
+    border: 3px solid rgb(1, 68, 12);
+    padding: 10px;
+}
+
+#about {
+    color: rgb(30, 150, 99)
+}
+
+.post .left {
+    float: left;
+    margin-right: 10px;
+}
+
+.post img {
+    width: 200px;
+}
+
+a {
+    color: rgb(150, 0, 0)
+}
+
+
+.bannerA {
+    color: black;
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around
+}
+
+a:hover {
+    color: rgb(255, 0, 0);
+}

@@ -1,0 +1,44 @@
+
+     body {
+        font-family: Arial, Helvetica, sans-serif;
+        background-color: rgb(0, 200, 200);
+        color: blue;
+     }
+#banner {
+background-color: cyan;
+border: 10px solid black;
+}
+#content {
+    width: 60%;
+    margin: auto;
+    border: 1px solid black;
+}
+#blogpost{
+    background-color: rgb(4, 188, 252);
+}
+.post {
+    color: rgb(0, 100, 255);
+    border: 3px solid rgb(0, 97, 16);
+    padding: 10px;
+}
+#about {
+    color: rgb(195, 225, 200)
+}
+
+.post .left {
+    float: left;
+    margin-right: 10px;
+}
+.post img{
+width: 200px;
+/* display: block; */
+}
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around
+}
+
+a:hover {
+    color: rgb(0, 0, 255);
+}
