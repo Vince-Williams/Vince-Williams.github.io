@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vintendo's Site</title>
+    <link id="lightSheet" rel="stylesheet" href="css/style.css">
+    <link id="darkSheet" rel="stylesheet" media="none" href="css/dark.css">
+</head>
+ <!-- I see you snooping around in MY website, and I DON'T appreciate it!  -->
+<body>
+    <div id="content">
+        <div id="banner">
+            <h1>My Website</h1>
+            <a class="bannerA" href="about.html">About Me</a> |
+            <a class="bannerA" href="gameguide.html">Get To School</a> |
+            <a class="bannerA" href="index.html">Main Page</a> |
+            <a class="bannerA" id="colorSwitch" href="#" onclick="changeSheet()">Dark Mode</a>
+        </div>
+        <div id="blogpost">
+            <div class="post">
+                <h2>About Me</h2>
+                <p>My name is Vince and I like gaming.</p>
+                <p>Click <a href="about.html">here</a> to learn more.</p>
+            </div>
+            <div class="post">
+                <h2 style="display: block;">Get To School</h2>
+                <img class="left" src="img/myGame.png" alt="Game Startup Screen">
+                <p>Get To School is a smash hit indie success about getting to school... presumably.</p>
+                <p>Click <a href="gettoschool/index.html">here</a> to play.</p>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="jss/script.js">
+    lightMode=true
+</script>
+</html>
