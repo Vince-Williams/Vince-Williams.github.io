@@ -18,8 +18,8 @@
             <a href="index.html">Main Page</a> <br>
             <a href="https://steamcommunity.com/profiles/76561199630337382/">Steam Profile</a><br>
             <a href="https://account.xbox.com/en-us/Profile?xr=socialtwistnav">Xbox Profile</a><br>
-            <a id="colorSwitch" href="#" onclick="changeSheet()">Dark Mode</a>
-        </div>
+
+            <a id="colorSwitch" href="#" onclick="changeSheet(); setCookie('lightMode', lightMode, 128)">Dark Mode</a>        </div>
         <div id="blogpost">
             <div class="post">
                 <h2>Play my game</h2>
@@ -61,7 +61,12 @@
     </div>
 </body>
 
-<script src="jss/script.js">
+<script src="js/cookie.js"></script>
+<script>
+    var lightMode = getCookie('lightMode')
+</script>
+
+<script src="js/script.js">
 </script>
 
 </html>

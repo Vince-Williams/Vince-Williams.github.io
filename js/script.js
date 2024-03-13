@@ -1,4 +1,19 @@
-var lightMode=lightMode;
+
+
+if(lightMode == 'false'){
+    console.log("Turning dark mode on...");
+    colorSwitch.innerText= "Light Mode"
+    darkSheet.media = ""
+    lightSheet.media = "none"
+}
+else {
+    {
+    console.log("Turning light mode on...");
+    colorSwitch.innerText= "Dark Mode"
+    darkSheet.media = "none"
+    lightSheet.media = ""
+}
+}
 
 function changeSheet(){
 //make lightMode equal NOT lightMode

@@ -8,7 +8,8 @@
     <link id="lightSheet" rel="stylesheet" href="css/style.css">
     <link id="darkSheet" rel="stylesheet" media="none" href="css/dark.css">
 </head>
- <!-- I see you snooping around in MY website, and I DON'T appreciate it!  -->
+<!-- I see you snooping around in MY website, and I DON'T appreciate it!  -->
+
 <body>
     <div id="content">
         <div id="banner" class="bannerA">
@@ -18,12 +19,14 @@
             <a href="index.html">Main Page</a> <br>
             <a href="https://steamcommunity.com/profiles/76561199630337382/">Steam Profile</a><br>
             <a href="https://account.xbox.com/en-us/Profile?xr=socialtwistnav">Xbox Profile</a><br>
-            <a id="colorSwitch" href="#" onclick="changeSheet()">Dark Mode</a>
+
+            <a id="colorSwitch" href="#" onclick="changeSheet(); setCookie('lightMode', lightMode, 128)">Dark Mode</a>
         </div>
         <div id="blogpost">
             <div class="post">
                 <h2>About Me</h2>
-                <p>My name is Vince and I like gaming. I play on Steam, Xbox, and more. My Xbox profile and Steam profile are included on the left.</p>
+                <p>My name is Vince and I like gaming. I play on Steam, Xbox, and more. My Xbox profile and Steam
+                    profile are included on the left.</p>
                 <p>Click <a class="a" href="about.html">here</a> to learn more.</p>
             </div>
             <div class="post">
@@ -36,7 +39,13 @@
         </div>
     </div>
 </body>
-<script src="jss/script.js">
-    lightMode=true
+<script src="js/cookie.js"></script>
+<script>
+    var lightMode = getCookie('lightMode')
 </script>
+
+<script src="js/script.js">
+</script>
+
+
 </html>
