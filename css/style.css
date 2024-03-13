@@ -5,20 +5,20 @@
         color: blue;
      }
 #banner {
-background-color: rgb(166, 239, 255);
-border: 5px double blue;
+background-color: cyan;
+border: 10px solid black;
 }
 #content {
     width: 60%;
     margin: auto;
-    border: 1px double blue;
+    border: 1px solid black;
 }
 #blogpost{
     background-color: rgb(4, 188, 252);
 }
 .post {
     color: rgb(0, 100, 255);
-    border: 3px double rgb(0, 0, 255);
+    border: 3px solid rgb(0, 97, 16);
     padding: 10px;
 }
 #about {
@@ -42,8 +42,3 @@ width: 200px;
 a:hover {
     color: rgb(0, 0, 255);
 }
-
-#left {
-    float: left;
-}
-

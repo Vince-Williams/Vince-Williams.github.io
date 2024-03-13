@@ -6,13 +6,13 @@ body {
 
 #banner {
     background-color: rgb(185, 0, 0);
-    border: 10px double blue;
+    border: 10px solid rgb(0, 0, 255);
 }
 
 #content {
     width: 60%;
     margin: auto;
-    border: 1px double blue;
+    border: 1px solid black;
 }
 
 #blogpost {
@@ -21,7 +21,7 @@ body {
 
 .post {
     color: rgb(201, 0, 0);
-    border: 3px double rgb(1, 68, 12);
+    border: 3px solid rgb(1, 68, 12);
     padding: 10px;
 }
 
