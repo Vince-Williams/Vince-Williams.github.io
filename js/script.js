@@ -2,14 +2,14 @@
 
 if(lightMode == 'false'){
     console.log("Turning dark mode on...");
-    colorSwitch.innerText= "Light Mode"
+    colorSwitch.innerText= "Spiral Mode"
     darkSheet.media = ""
     lightSheet.media = "none"
 }
 else {
     {
     console.log("Turning light mode on...");
-    colorSwitch.innerText= "Dark Mode"
+    colorSwitch.innerText= "Fire Mode"
     darkSheet.media = "none"
     lightSheet.media = ""
 }
@@ -29,14 +29,14 @@ function changeSheet(){
 
     if(lightMode == false){
         console.log("Turning dark mode on...");
-        colorSwitch.innerText= "Light Mode"
+        colorSwitch.innerText= "Spiral Mode"
         darkSheet.media = ""
         lightSheet.media = "none"
     }
     else {
         {
         console.log("Turning light mode on...");
-        colorSwitch.innerText= "Dark Mode"
+        colorSwitch.innerText= "Fire Mode"
         darkSheet.media = "none"
         lightSheet.media = ""
     }
