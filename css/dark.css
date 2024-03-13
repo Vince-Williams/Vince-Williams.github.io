@@ -44,12 +44,12 @@ float: left;
     width: 200px;
 }
 
-a {
+.a {
     color: rgb(150, 0, 0)
 }
 
 
-.bannerA {
+#bannerA a{
     color: black;
 }
 
